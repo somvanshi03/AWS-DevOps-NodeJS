@@ -5,7 +5,7 @@ files:
     destination: /webapp
 hooks:
   AfterInstall:
-    - location: /Scripts/Install_package
+    - location: /Scripts/Install_package.sh
       timeout: 100
   ApplicationStart:
     - location: /Scripts/applicationstart.sh
