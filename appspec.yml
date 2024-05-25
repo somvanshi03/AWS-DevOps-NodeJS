@@ -1,0 +1,12 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /webapp
+hooks:
+  AfterInstall:
+    - location: /Scripts/Install_package
+      timeout: 100
+  ApplicationStart:
+    - location: /Scripts/applicationstart
+      timeout: 100

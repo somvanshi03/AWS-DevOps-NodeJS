@@ -3,7 +3,7 @@ const app = express();
 const port = 3001;  //define port
 
 app.get('/', (req, res) => {
-    res.send('Hello, World!');
+    res.send('Hello, Welcome to NodeJs');
 });
 
 // Start the Express server
