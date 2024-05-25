@@ -8,5 +8,5 @@ hooks:
     - location: /Scripts/Install_package
       timeout: 100
   ApplicationStart:
-    - location: /Scripts/applicationstart
+    - location: /Scripts/applicationstart.sh
       timeout: 100
